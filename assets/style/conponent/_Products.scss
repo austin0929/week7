@@ -1,0 +1,64 @@
+.Products-pic1{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products1.jpg);
+    min-height: 255px;
+}
+.Products-pic2{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index6.jpg);
+    min-height: 255px;
+    background-size: cover;
+    background-position: bottom;
+}
+.Products-pic3{
+    background-image: url(https://images.unsplash.com/photo-1566977776052-6e61e35bf9be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    min-height: 255px;
+}
+.Products-pic4{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products4.jpg);
+    min-height: 255px;
+     background-size: cover;
+    background-position: top;
+}
+.Products-pic5{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products5.jpg);
+    min-height: 255px;
+}
+.Products-pic6{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index4.jpg);
+    min-height: 255px;
+         background-size: cover;
+    background-position: left;
+}
+.Products-pic7{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products7.jpg);
+    min-height: 255px;
+}
+.Products-pic8{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products8.jpg);
+    min-height: 255px;
+}
+.Products-pic9{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index3.png);
+    min-height: 255px;
+}
+.Products-pic10{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products10.jpg);
+    min-height: 255px;
+}
+.Products-pic11{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products11.jpg);
+    min-height: 255px;
+}
+.Products-pic12{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products12.jpg);
+    min-height: 255px;
+}
+@media (max-width: 767px){
+    .Products-pic-all{
+        min-height: 165px;
+    }
+    .products-main{
+        h3{
+            font-size: 23px;
+        }
+    }
+}

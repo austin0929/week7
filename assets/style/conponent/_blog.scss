@@ -1,0 +1,35 @@
+.blog-pic1{
+    background-image: url(https://images.unsplash.com/photo-1594913785201-eb82e5c0bce4?ixlib=rb-1.2.1&w=1000&q=80);
+    min-height: 460px;
+}
+.blog-pic2{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/product2.jpg);
+    min-height: 640px;
+}
+.blog-pic3{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/product3.jpg);
+    min-height: 640px;
+}
+.blog-pic4{
+      background-image: url(https://images.unsplash.com/photo-1594913785201-eb82e5c0bce4?ixlib=rb-1.2.1&w=1000&q=80);
+    min-height: 460px;
+}
+.blog-select,.blog-btn{
+    height: 50px;
+    width: 50%;
+}
+.blog{
+    position: relative;
+}
+.blog-text{
+    position: absolute;
+    right: 0;
+}
+@media (max-width: 767px){
+    .blog-pic1{
+        min-height: 220px;
+    }
+    .blog-text{
+        top: 8.5%;
+}
+}

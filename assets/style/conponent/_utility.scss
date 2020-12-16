@@ -1,0 +1,27 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+  text-decoration: none !important;
+}
+.bg-cover{
+  background-position:  center center;
+  background-size: cover;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.col{
+    padding-right: 0;
+    padding-left: 0;
+  }
+.form-control,.btn{
+  border-width: 2px !important;
+}
+.h7{
+  font-size: 14px;
+}
