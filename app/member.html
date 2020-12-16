@@ -1,0 +1,204 @@
+---
+title: 內頁4
+layout: ./app/layout.ejs
+engine: ejs
+current: member
+---
+
+
+<div class="menu-nav bg-primary mb-md-4 mt-2 mt-md-0 mb-md-4 mb-md-4">
+    <div class="container d-lg-block d-none mb-md-4">
+        <ul class="d-flex pl-md-7 pl-0 py-7">
+            <li class="mr-1"><a href="#" class="text-light h5">CHANEL</a></li>
+            <li class="mr-1"><a href="#" class="text-light mr-1 h5">Jo Malone</a></li>
+            <li class="mr-1"><a href="#" class="text-light mr-1 h5">Curology</a></li>
+            <li class="mr-1"><a href="#" class="text-light mr-1 h5">Dior</a></li>
+            <li class="mr-1"><a href="#" class="text-light mr-1 h5">Chloe</a></li>
+            <li class="mr-1"><a href="#" class="text-light h5">ZARA</a></li>
+        </ul>
+    </div>
+</div>
+
+<section>
+    <div class="container">
+        <div class="row pl-md-7 pl-0">
+            <div class="col-12 col-md-2">
+                <ul class="pl-0 d-flex justify-content-between d-md-block">
+                    <li class="d-none d-md-block">
+                        <h2 class="h5 text-secondary mb-md-1">會員中心</h2>
+                    </li>
+                    <li class="mb-6">
+                        <h3><a href="#" class="text-secondary h6">會員資料修改</a></h3>
+                    </li>
+                    <li class="mb-6">
+                        <h3><a href="#" class="text-secondary h6">訂單查詢</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="#" class="text-secondary h6">退換貨申請</a></h3>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 會員編碼sm -->
+                <div class="col-12 col-md-3 d-block d-md-none">
+            <ul class="px-0 member-list-sm mb-2">
+                <li>
+                    <h2 class="h6 mb-6 text-secondary"><i class="fas fa-user text-dark"></i> 會員編碼 T00020080615</h2>
+                </li>
+                <li>
+                    <h3 class="d-inline-block h6 mb-7 text-secondary">購物車</h3>
+                    <span class="text-secondary d-inline-block">56</span>
+                </li>
+                <li>
+                    <h3 class="d-inline-block h6 mb-7 text-secondary">我的收藏</h3>
+                    <span class="text-secondary ">23</span>
+                </li>
+                <li>
+                    <h3 class="d-inline-block h6 mb-7 text-secondary">完成訂單</h3>
+                    <span class="text-secondary">8</span>
+                </li>
+                <li>
+                    <h3 class="d-inline-block h6 mb-7 text-secondary">會員紅利</h3>
+                    <span class="text-secondary">2680</span>
+                </li>
+                <li>
+                    <h3 class="d-inline-block h6 text-secondary">邀請碼</h3>
+                    <span class="text-secondary">TK2075</span>
+                </li>
+                <li>
+                    <h4 class="h7 text-secondary h3">新戶輸入邀請碼即可獲贈紅利點數1000點</h3>
+                </li>
+            </ul>
+                </div>
+            <!-- 會員編碼sm end -->
+
+            <div class=" col-md-7">
+                <form>
+                    <h2 class="h6 font-weight-bold border-bottom border-dark pb-8">個人資料修改</h2>
+                    <div class="form-row mb-6">
+                        <label for="member-email" class="col-form-label col-3 col-lg-2" id="member-email">會員帳號</label>
+                        <input type="member-email" name="member-email" id="member-email"
+                            class="col-9 col-md-7 form-control border-0 bg-white" placeholder="email@example.com"
+                            disabled>
+                    </div>
+                    <div class="form-row mb-6">
+                        <label for="member-name" class="col-form-label col-3 col-lg-2" id="member-name">會員姓名</label>
+                        <input type="member-name" name="member-name" id="member-name"
+                            class="col-md-7 col-9 form-control">
+                    </div>
+                    <div class="form-row  mb-6">
+                        <label for="member-sex" id="member-sex" class="col-form-label col-3 col-lg-2">會員性別</label>
+                        <select name="member-sex" id="member-sex" class="form-control col-2">
+                            <option value="男">男</option>
+                            <option value="女">女</option>
+                        </select>
+                    </div>
+                    <div class="form-row  mb-6">
+                        <label for="email" class="col-form-label col-3 col-lg-2" id="email">電子信箱</label>
+                        <input type="email" name="email" id="email" class="col-9 col-md-7 form-control">
+                    </div>
+                    <div class="form-row  mb-6">
+                        <label for="tel" class="col-form-label col-3 col-lg-2" id="tel">手機號碼</label>
+                        <input type="tel" name="tel" id="tel" class="col-9 col-md-7 form-control">
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <legend class="col-form-label col-3 col-lg-2">聯絡地址</legend>
+                            <div class="col-9 pl-0 pr-0">
+                                <select name="contact-country" id="contact-country" class="form-control col-10 col-md-4 mb-8">
+                                    <option value="">台灣及離島</option>
+                                </select>
+                                <div class="d-flex flex-wrap">
+                                    <select name="contact-city" id="contact-city" class="form-control col-5 col-md-4 mb-8 mr-8">
+                                        <option value="">高雄市</option>
+                                    </select>
+                                    <select name="contact-address" id="contact-address" class="form-control col-5 col-md-4">
+                                        <option value="">鹽埕區</option>
+                                    </select>
+                                    <input type="contact-detail" id="contact-detail" class="form-control col-12 col-md-9 mb-8"
+                                        placeholder="請輸入地址">
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input bg-primary" id="customCheck1">
+                                    <label class="custom-control-label text-secondary"
+                                        for="customCheck1">我願意收到最新優惠情報</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <legend class="col-form-label col-3 col-lg-2">配送地址</legend>
+                            <div class="col-9 pl-0 pr-0">
+                                <select name="contact-country" id="contact-country" class="form-control col-10 col-md-4 mb-8">
+                                    <option value="">台灣及離島</option>
+                                </select>
+                                <div class="d-flex flex-wrap">
+                                    <select name="contact-city" id="contact-city"
+                                        class="form-control col-5 col-md-4 mb-md-8 mr-8">
+                                        <option value="">高雄市</option>
+                                    </select>
+                                    <select name="contact-address" id="contact-address" class="form-control col-5 col-md-4 mb-8">
+                                        <option value="">鹽埕區</option>
+                                    </select>
+                                    <input type="contact-detail" id="contact-detail" class="form-control col-12 col-md-9 mb-8"
+                                        placeholder="請輸入地址">
+                                </div>
+                                <a href="#" class="btn btn-primary d-inline-block col-8 col-md-4 mb-2">確定修改</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h2 class="h6 font-weight-bold border-bottom  pb-8 border-dark mb-8">修改密碼</h2>
+                        <div class="form-row form-group">
+                            <legend class="col-form-label col-3 col-lg-2 text-secondary" id="old-password">舊密碼</legend>
+                            <input type="old-password" name="old-password" id="old-password" class="form-control col-9 col-md-7">
+                        </div>
+                        <div class="form-row form-group">
+                            <legend class="col-form-label col-3 col-lg-2 text-secondary" id="old-password">舊密碼</legend>
+                            <input type="old-password" name="old-password" id="old-password" class="form-control  col-9 col-md-7">
+                        </div>
+                        <div class="form-row form-group">
+                            <legend class="col-form-label col-3 col-lg-2 text-secondary" id="old-password">舊密碼</legend>
+                            <input type="old-password" name="old-password" id="old-password" class="form-control  col-9 col-md-7">
+                        </div>
+                        <div class="form-row form-group mb-md-3 mb-2">
+                            <legend class="col-3 col-lg-2"></legend>
+                            <a href="#" class="btn btn-primary col-6 col-md-3">變更密碼</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-3 d-none d-md-block">
+                <ul class="px-0">
+                    <li>
+                        <h2 class="h6 mb-6 text-secondary"><i class="fas fa-user text-dark"></i> 會員編碼 T00020080615</h2>
+                    </li>
+                    <li>
+                        <h3 class="d-inline-block w-50 h6 mb-7 text-secondary">購物車</h3>
+                        <span class="text-secondary">56</span>
+                    </li>
+                    <li>
+                        <h3 class="d-inline-block w-50 h6 mb-7 text-secondary">我的收藏</h3>
+                        <span class="text-secondary">23</span>
+                    </li>
+                    <li>
+                        <h3 class="d-inline-block w-50 h6 mb-7 text-secondary">完成訂單</h3>
+                        <span class="text-secondary">8</span>
+                    </li>
+                    <li>
+                        <h3 class="d-inline-block w-50 h6 mb-7 text-secondary">會員紅利</h3>
+                        <span class="text-secondary">2680</span>
+                    </li>
+                    <li>
+                        <h3 class="d-inline-block w-50 h6 text-secondary">邀請碼</h3>
+                        <span class="text-secondary">TK2075</span>
+                    </li>
+                    <li>
+                        <h3 class="h7 text-secondary class=" text-secondary"">新戶輸入邀請碼即可獲贈紅利點數1000點</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

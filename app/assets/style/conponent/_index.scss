@@ -1,0 +1,90 @@
+.banner{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index1.jpg);
+}
+.banner-img{
+    height: 870px;
+    h2{
+        font-size: 40px;
+    }
+    a{
+        width: 300px;
+    }
+}
+@media (max-width: 767px){
+    .banner-img{
+        height: 480px;
+    }
+    h2{
+        font-size: 32px;
+    }
+}
+.main-pic{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index2.jpg);
+    min-height: 555px;
+}
+.main-pic1{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index3.png);
+    min-height: 555px;
+}
+.main-pic2{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index4.jpg);
+    background-position: 20% 20%;
+    background-size: cover;
+    min-height: 555px;
+}
+.main-pic3{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index5.jpg);
+    //  max-width: 580px;
+    //  min-height: 1000px;
+}
+@media (max-width: 767px){
+    .main-pic2,.main-pic,.main-pic1{
+        // width: 346px;
+        min-height: 346px;
+    }
+    .main-pic3{
+        min-height: 680px;
+    }
+}
+.product-pic1{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index6.jpg);
+    min-height: 540px;
+}
+.product-pic2{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index7.jpg);
+    min-height: 540px;
+}
+.product-pic3{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index8.jpg);
+    min-height: 540px;
+}
+@media (max-width: 767px){
+    .product-pic1,.product-pic2,.product-pic3{
+        min-height: 350px;
+    }
+}
+.banner-bottom{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg);
+    height: 600px;
+}
+.form-search{
+  input,button{
+  height: 60px;
+  }
+  & button{
+    width: 13%;
+  }
+  & input{
+    max-width: 23%;
+  }
+}
+@media (max-width: 767px) {
+    .form-search{
+    & button{
+    width: 30%;
+  }
+  & input{
+    max-width: 70%;
+  }
+}
+}
